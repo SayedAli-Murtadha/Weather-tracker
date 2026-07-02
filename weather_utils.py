@@ -169,6 +169,7 @@ def search_by_date():
             print(f"Temp:{j['Temperature']}°C")
             print(f"Humidity:{j['Humidity']}")
             print(f"Wind Speed:{j['Wind_Speed']} km/h")
+            print('-----------------------------------')
     else:
         print(f'No observation found for the date: {search_date}')
     
