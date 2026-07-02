@@ -136,7 +136,7 @@ def record_observation():
 
 def search_by_date():
     """After user chose to search by date, he is permitted to input a date
-    Done by Qaed"""
+    Done by Qaem"""
     print("\n[ Search Observations by Date ]")
     search_date=input(f'Input a date to search for in (MM-DD-YYYY): ')
     try:
@@ -283,7 +283,7 @@ def view_statistics():
 def view_all_observations():
     """
     Displays the entire dataset of weather observations.
-    Done by Qaed
+    Done by Qaem
     """
     print("\n[  All Weather Observations ]\n")
     df = pd.read_csv(CSV_FILE)
